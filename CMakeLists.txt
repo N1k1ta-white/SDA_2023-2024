@@ -4,5 +4,5 @@ project(HW)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(HW
-        hw5/hw5_1.cpp
+        hw6/hw6_2.cpp
 )
