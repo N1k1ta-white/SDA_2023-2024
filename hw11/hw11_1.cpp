@@ -60,7 +60,6 @@ int main() {
     for (int i = 0; i < E; ++i) {
         cin >> start >> end >> val;
         edges[start].insert({end, val});
-        edges[end].insert({start, val});
     }
     cout << search(from, to, edges);
 };
