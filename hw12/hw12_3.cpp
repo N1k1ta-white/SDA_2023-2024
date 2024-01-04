@@ -2,6 +2,7 @@
 #include <vector>
 #include <queue>
 #include <climits>
+#include <algorithm>
 
 using namespace std;
 
@@ -94,14 +95,18 @@ int main() {
             minS = s;
         }
     }
-    int max = maxS, min = minS, curr_max;
+    sort(paths.begin(), paths.end());
+    int max = maxS, min = minS;
+    pair<int, int> temp;
     for (int i = minS; i < maxS; ++i) {
-        curr_max = check(paths, i, N);
-        if (curr_max != -1) {
-            if (max - min > curr_max - i) {
-                max = curr_max;
+        temp = check(paths, i, N);
+        if (temp.first == N) {
+            if (max - min > temp.second - i) {
+                max = temp.second;
                 min = i;
             }
+        } else if (temp.first == 0) {
+            break;
         }
     }
     cout << min << " " << max;
