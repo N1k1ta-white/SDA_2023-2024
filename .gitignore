@@ -1,4 +1,4 @@
 # Project exclude paths
 /cmake-build-debug/
 .idea
-/hw6/leetcode_graph_alghoritm-dijcstra.cpp
+/hw/hw6/leetcode_graph_alghoritm-dijcstra.cpp
