@@ -4,5 +4,5 @@ project(HW)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(HW
-        leetcode/295.cpp
+        leetcode/1043.cpp
 )
