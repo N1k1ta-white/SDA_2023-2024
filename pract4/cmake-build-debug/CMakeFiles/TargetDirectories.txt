@@ -1,0 +1,3 @@
+C:/Users/detix/Desktop/SDA/pract4/cmake-build-debug/CMakeFiles/pract4.dir
+C:/Users/detix/Desktop/SDA/pract4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/detix/Desktop/SDA/pract4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
