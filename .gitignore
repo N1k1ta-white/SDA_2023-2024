@@ -2,3 +2,5 @@
 /cmake-build-debug/
 .idea
 /hw/hw6/leetcode_graph_alghoritm-dijcstra.cpp
+.vscode
+CMakeLists.txt
